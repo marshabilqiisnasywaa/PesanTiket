@@ -1,0 +1,12 @@
+<resources>
+    <!-- Nama Aplikasi -->
+    <string name="app_name">PesanTiket</string>
+
+    <!-- Array Spinner untuk Tujuan -->
+    <string-array name="tujuan_options">
+        <item>Jakarta</item>
+        <item>Surabaya</item>
+        <item>Bandung</item>
+        <item>Yogyakarta</item>
+    </string-array>
+</resources>

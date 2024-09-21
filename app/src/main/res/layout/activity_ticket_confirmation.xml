@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="70dp"
+    android:gravity="top|center"
+    android:background="#FFFFFF">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berhasil Mendapatkan\nTiket!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Checkmark Icon (use drawable or vector asset) -->
+    <ImageView
+        android:id="@+id/checkmark"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/success"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Ticket Information (left-aligned) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/namaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama   : Nama"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/jamText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jam    : Jam"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tanggalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal: Tanggal"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tujuanText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tujuan : Tujuan"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+</LinearLayout>
